@@ -10,9 +10,9 @@ public class StsApplication {
 	private static final Logger LOGGER = LoggerFactory.getLogger(StsApplication.class);
 
 	public static void main(String[] args) {
-		LOGGER.debug("StsApplication starting");
+		LOGGER.debug("begin StsApplication");
 		SpringApplication.run(StsApplication.class, args);
-		LOGGER.debug("StsApplication end");
+		LOGGER.debug(" end StsApplication");
 	}
 
 }
