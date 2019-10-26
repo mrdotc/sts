@@ -11,6 +11,9 @@ public class StsApplication {
 
 	public static void main(String[] args) {
 		LOGGER.debug("StsApplication starting");
+		LOGGER.debug("StsApplication fixing-0ne");
+		LOGGER.debug("StsApplication fixing-three");
+		LOGGER.debug("StsApplication fixing-two");
 		SpringApplication.run(StsApplication.class, args);
 		LOGGER.debug("StsApplication end");
 	}
