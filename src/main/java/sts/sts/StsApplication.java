@@ -11,7 +11,11 @@ public class StsApplication {
 
 	public static void main(String[] args) {
 		LOGGER.debug("StsApplication starting");
+		LOGGER.debug("develop some function on develop");
+		LOGGER.debug("develop some function on develop-two");
+		LOGGER.debug("develop some function on develop-three");
 		SpringApplication.run(StsApplication.class, args);
+		LOGGER.debug("develop some function on develop-four");
 		LOGGER.debug("StsApplication end");
 	}
 
