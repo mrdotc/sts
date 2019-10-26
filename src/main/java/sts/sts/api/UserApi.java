@@ -22,4 +22,12 @@ public class UserApi {
 
     }
 
+
+    public String set
+            (String userId, String useName) {
+
+        return "Success";
+
+    }
+
 }
