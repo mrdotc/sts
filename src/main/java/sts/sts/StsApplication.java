@@ -14,7 +14,12 @@ public class StsApplication {
 		LOGGER.debug("StsApplication fixing-0ne");
 		LOGGER.debug("StsApplication fixing-three");
 		LOGGER.debug("StsApplication fixing-two");
+		LOGGER.debug("develop some function on develop-two");
+		LOGGER.debug("develop some function on develop-three");
+		LOGGER.debug("develop some function on develop");
 		SpringApplication.run(StsApplication.class, args);
+		LOGGER.debug("develop some function on develop-four");
+		LOGGER.debug("develop some function on develop-five");
 		LOGGER.debug("StsApplication end");
 	}
 
