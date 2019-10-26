@@ -20,6 +20,7 @@ public class StsApplication {
 		SpringApplication.run(StsApplication.class, args);
 		LOGGER.debug("develop some function on develop-four");
 		LOGGER.debug("develop some function on develop-five");
+		LOGGER.debug("StsApplication fixing-again-three");
 		LOGGER.debug("StsApplication end");
 	}
 
