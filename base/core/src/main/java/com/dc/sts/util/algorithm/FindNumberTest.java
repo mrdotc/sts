@@ -24,6 +24,7 @@ public class FindNumberTest {
             }
             hashMap.put(nums[i], i);
         }
+        // return the empty array
         return  new int[]{};
     }
 
